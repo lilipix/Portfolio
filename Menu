@@ -1,0 +1,45 @@
+< div className={s.superContainer}>
+  // <button className={s.burger} onClick={toggleMenu}>
+    //
+    <Burger className={s.menu} />
+    //
+  </button>
+  // {isMenuVisible && (
+  // <div className={s.containerMobile}>
+    // <a href="#home" className={s.item}>
+      // home
+      // </a>
+    // <a href="#about" className={s.item}>
+      // about
+      // </a>
+    // <a href="#projects" className={s.item}>
+      // projects
+      // </a>
+    // <a href="#contact" className={s.item}>
+      // contact
+      // </a>
+    // </div>
+  // )}
+
+  <ul className={s.container}>
+    // <li>
+      // <NavLink className={s.item} to="/">
+        // home
+        // </NavLink>
+      // </li>
+    // <li>
+      // <NavLink className={s.item} to="/about">
+        // about
+        // </NavLink>
+      // </li>
+    // <li>
+      // <NavLink className={s.item} to="/projects">
+        // projects
+        // </NavLink>
+      // </li>
+    // <li>
+      // <NavLink className={s.item} to="/contact">
+        // contact
+        // </NavLink>
+      // </li>
+    // </ul

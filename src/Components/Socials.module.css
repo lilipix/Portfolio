@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social{
+    color: var(--text-color);
+    margin: 1rem;
+    margin-bottom: 2rem;
+    transition: transform 0.5s ease;
+}
+
+@media screen and (min-width : 768px){
+
+.social:hover{
+    transform: scale(1.5);
+}
+
+.social{
+    cursor: pointer;
+    font-size: 30px;
+    margin: 1rem;
+}
+
+
+}

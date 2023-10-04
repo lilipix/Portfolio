@@ -1,0 +1,147 @@
+.home{
+    height: 100vh;
+    position: relative;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.name{
+   
+    text-transform: uppercase;
+    font-family: 'lucidaGrandeBold', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    line-height: 0.8;
+    width: 350px; 
+    overflow: hidden;
+    
+   }
+
+.job{
+    font-family: 'lucidaGrande', sans-serif;
+    font-size: 38px;
+    letter-spacing: -4px;
+    color: var(--text-color-dark);
+    text-transform: uppercase;
+    margin-left: 1rem;   
+    width: 350px; 
+   
+}
+
+.profile{
+    height: 320px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.socials{
+    display: flex;
+    position: absolute;
+    bottom: 2%;  
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .home{
+        height: 100vh;
+    }
+
+    .welcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        position: relative;
+    } 
+
+    .title_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+        border-radius: 2px;
+        gap: 3rem;
+        position: absolute;
+        top: 10%;
+    }
+
+    .profile{
+        height: 200px;
+    }
+
+    .picture{
+        transform: translateY(-50px);
+    } 
+
+    .socials{
+        bottom: 15%;
+    }
+}
+
+
+
+@media screen and (min-width : 1200px){
+     .welcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        position: relative;
+        
+    } 
+
+    .title_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+      
+        border-radius: 2px;
+        gap: 3rem;
+        position: absolute;
+    }
+    .socials{
+        bottom: 10%;  
+    }
+    .name{
+        font-size: 122px;
+        margin-left: 0;
+        width: auto;
+       
+    }
+  
+
+    .job{
+        font-size: 94px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .burger{
+        right: 10px;
+    }
+
+    .picture{
+        transform: translateY(-50px);
+    }  
+    
+    .profile{ 
+        height: 400px;
+        width: auto;
+        margin-bottom: 5rem;
+    }
+    
+   
+}
