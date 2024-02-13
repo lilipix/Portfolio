@@ -11,10 +11,10 @@ import { DiScrum } from "react-icons/di";
 import { FaGithub } from "react-icons/fa";
 import { BsGit } from "react-icons/bs";
 import cv from "./../assets/aurelie_demure_cv.pdf";
-import { useTheme } from "./ThemeContext";
 import "animate.css/animate.min.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { useTheme } from './Context/theme-hook';
 
 const About = () => {
   const { lightMode } = useTheme();

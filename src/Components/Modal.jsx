@@ -1,6 +1,6 @@
+import { useTheme } from './Context/theme-hook';
 import s from "./Modal.module.css";
 import PropTypes from "prop-types";
-import { useTheme } from "./ThemeContext";
 
 const Modal = ({ content, onClose }) => {
   const { lightMode } = useTheme();

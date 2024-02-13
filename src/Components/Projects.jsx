@@ -2,10 +2,10 @@ import s from "./Projects.module.css";
 import { useState } from "react";
 import Modal from "./Modal";
 import datas from "../datas";
-import { useTheme } from "./ThemeContext";
 import "animate.css/animate.min.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { useTheme } from './Context/theme-hook';
 
 const Projects = () => {
   AOS.init();
@@ -29,7 +29,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className={s.project_container}>
-        {datas.map((data) => (
+      {[...datas].reverse().map((data) => (
           <div
             key={data.id}
             className={`${!lightMode ? s.project_card : s.project_card_light} ${

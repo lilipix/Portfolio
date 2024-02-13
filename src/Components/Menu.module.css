@@ -130,8 +130,7 @@ a{
     transform: translateY(12px);
 } 
 
-.show .burger_line::before{
-       
+.show .burger_line::before{      
     transform: rotate(45deg);
 }
 
