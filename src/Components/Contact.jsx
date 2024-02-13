@@ -1,10 +1,10 @@
 import s from "./Contact.module.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useTheme } from "./ThemeContext";
 import "animate.css/animate.min.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { useTheme } from './Context/theme-hook';
 
 const Contact = () => {
   const serviceID = import.meta.env.VITE_EMAILJS_SERVICEID;
