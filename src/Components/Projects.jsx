@@ -5,7 +5,7 @@ import datas from "../datas";
 import "animate.css/animate.min.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { useTheme } from './Context/theme-hook';
+import { useTheme } from "./Context/theme-hook";
 
 const Projects = () => {
   AOS.init();
@@ -29,7 +29,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className={s.project_container}>
-      {[...datas].reverse().map((data) => (
+        {[...datas].reverse().map((data) => (
           <div
             key={data.id}
             className={`${!lightMode ? s.project_card : s.project_card_light} ${
@@ -47,11 +47,15 @@ const Projects = () => {
               }`}
             >
               <div>
-                <p className={s.description}>{data.description}</p>
-                <p>
-                  <strong>Team :</strong>{" "}
-                  <span className={s.color}>{data.team}</span>
-                </p>
+                    <p className={s.description}>{data.description}</p>
+                    {data.team && (
+                      <>
+                    <p>
+                      <strong>Team :</strong>{" "}
+                      <span className={s.color}>{data.team}</span>
+                    </p>
+                  </>
+                ) }
                 <p>
                   <strong>Technologies used :</strong> <br />
                   <span className={!lightMode ? s.color : s.color_light}>

@@ -9,6 +9,10 @@ import { SiMysql } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 import { DiScrum } from "react-icons/di";
 import { FaGithub } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
+import {  IoTriangle } from "react-icons/io5";
+import { BiLogoMongodb } from "react-icons/bi";
+
 import { BsGit } from "react-icons/bs";
 import cv from "./../assets/aurelie_demure_cv.pdf";
 import "animate.css/animate.min.css";
@@ -43,11 +47,9 @@ const About = () => {
               I am a passionate and committed web developer. Nurse during
               several years I developed adaptive organizational relational and
               teamwork skills. <br /> <br />
-              Holder of the title of Web Developer I would like to join a
-              dynamic team and perfect my web development skills. <br /> <br />I
-              am looking for all professional opportunities as a web developer :
-              internship, work-study or contract. <br /> <br /> Do not hesitate
-              to contact me! <br /> <br />
+              I am currently on an internship for 6 months with a freelancer and we are working on the development of equestrian center management software. I create several full stack features. <br /> <br />
+              After my internship in April I would like to join a
+              dynamic team ! <br /> <br />  Do not hesitate to contact me! <br /> <br />
             </p>
           </div>
         </div>
@@ -115,9 +117,21 @@ const About = () => {
                       </li>
                       <li>
                         <span className={s.skills_icon}>
+                          <BiLogoTypescript />
+                        </span>{" "}
+                        TypeScript
+                      </li>
+                      <li>
+                        <span className={s.skills_icon}>
                           <FaReact />
                         </span>{" "}
                         React JS
+                      </li>
+                      <li>
+                        <span className={s.skills_icon}>
+                          <IoTriangle />
+                        </span>{" "}
+                        Next JS
                       </li>
                       <li>
                         <span className={s.skills_icon}>
@@ -152,6 +166,12 @@ const About = () => {
                           <SiMysql />
                         </span>{" "}
                         MySQL
+                      </li>
+                      <li>
+                        <span className={s.skills_icon}>
+                          <BiLogoMongodb />
+                        </span>{" "}
+                        Mongodb
                       </li>
                       <li>
                         <span className={s.skills_icon}>

@@ -44,8 +44,8 @@ import C2 from "./assets/C2.png";
 import C3 from "./assets/C3.png";
 import C4 from "./assets/C4.png";
 import C5 from "./assets/C5.png";
-import Portfolio from "./assets/Portfolio.png";
-import VintageVibes from "./assets/VintageVibes.png";
+import portfolio from "./assets/portfolio.png";
+import vintageVibes from "./assets/vintageVibes.png";
 
 const datas = [
   {
@@ -126,19 +126,19 @@ const datas = [
   },
   { 
     id: 9,
-    image: Portfolio,
+    image: portfolio,
     description: "Developpment of my portfolio.",
     tech: "HTML, CSS, ReactJs",
     linkGit: "https://github.com/lilipix/Portfolio",
     },
     {
       id: 10,
-      image: VintageVibes,
-      description: "During my training I planned to create an audio player, but I didn't have enough time. I finally made it ! I had fun developing this audio player in a vintage style, which gave me the opportunity to improve my skills with Tailwind CSS.",
+      image: vintageVibes,
+      description: "During my training I planned to create an audio player, but I didn't have enough time. I finally succeeded ! I had fun choosing the music and developing this audio player in a vintage style, which gave me the opportunity to improve my skills with Tailwind CSS. Watch and listen !",
       tech: "HTML, Tailwind CSS, ReactJs",
       linkGit: "https://github.com/lilipix/VintageVibes",
-      linkWebsite: "https://vintage-vibes.netlify.app/",
-    }
+      linkWebsite: "https://vintagevibesaudio.netlify.app/",
+    },
 ];
 
 export default datas;
