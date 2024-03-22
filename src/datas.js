@@ -102,7 +102,7 @@ const datas = [
       "Project full stack done in 1 month during my training at the Wild Code School. Application with two interfaces subject to authentication to support patients before their hospitalization. See extract.",
     team: "4 developer",
     tech: "HTML, Tailwind CSS, ReactJs, NodeJs, ExpressJs, MySQL",
-    linkGit: "https://github.com/lilipix/PackSmart",
+    linkGit: "https://github.com/lilipix/Serenity",
     seeMore: [S10, S11, S12, S13, S1, S2, S3, S4, S5, S6, S7, S8],
   },
   {
@@ -112,7 +112,7 @@ const datas = [
       "Project full stack done in two days for a hackathon with Emmaus Connect. Application with two interfaces subject to authentication to evaluate the price of a phone and to track stocks. See extract.",
     team: "3 developer",
     tech: "HTML, CSS, ReactJs, NodeJs, ExpressJs, MySQL",
-    linkGit: "https://github.com/lilipix/PackSmart",
+    linkGit: "https://github.com/lilipix/Hackathon-EmmausConnect",
     seeMore: [E1, E2, E3],
   },
   {
@@ -121,7 +121,7 @@ const datas = [
     description:
       "Project full stack in 1 week. Creating a clone of Google Keep. Application with authentication to create notes, view them, modify them, delete them, assign them a category and sort them by categories. New features coming.",
     tech: "HTML, CSS, ReactJs, NodeJs, ExpressJs, MySQL",
-    linkGit: "https://github.com/lilipix/PackSmart",
+    linkGit: "https://github.com/lilipix/NoteHub",
     seeMore: [N1, N2, N3, N4, N5, NH1, NH2, NH3, NH4, NH5, NH6],
   },
   { 
