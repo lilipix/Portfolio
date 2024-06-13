@@ -10,7 +10,7 @@ import { TbApi } from "react-icons/tb";
 import { DiScrum } from "react-icons/di";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
-import {  IoTriangle } from "react-icons/io5";
+import { IoTriangle } from "react-icons/io5";
 import { BiLogoMongodb } from "react-icons/bi";
 
 import { BsGit } from "react-icons/bs";
@@ -18,7 +18,7 @@ import cv from "./../assets/aurelie_demure_cv.pdf";
 import "animate.css/animate.min.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { useTheme } from './Context/theme-hook';
+import { useTheme } from "./Context/theme-hook";
 
 const About = () => {
   const { lightMode } = useTheme();
@@ -47,9 +47,12 @@ const About = () => {
               I am a passionate and committed web developer. Nurse during
               several years I developed adaptive organizational relational and
               teamwork skills. <br /> <br />
-              I am currently on an internship for 6 months with a freelancer and we are working on the development of equestrian center management software. I create several full stack features. <br /> <br />
-              After my internship in April I would like to join a
-              dynamic team ! <br /> <br />  Do not hesitate to contact me! <br /> <br />
+              After obtaining my professional DWWM title, I completed a 6-month
+              internship with a freelancer and worked on the development of
+              management software. I developed several full stack features.{" "}
+              <br /> <br />
+              I am available to join a dynamic team!
+              <br /> <br /> Do not hesitate to contact me! <br /> <br />
             </p>
           </div>
         </div>
