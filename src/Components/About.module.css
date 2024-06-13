@@ -158,7 +158,7 @@
   .about {
     display: flex;
     flex-direction: row;
-    margin-top: 4rem;
+    margin-top: 2rem;
     gap: 50px;
   }
   .title {
@@ -167,14 +167,21 @@
     margin: 0;
   }
 
+  .description_container,
+  .description_container_light,
+  .skills_container > .description_container,
+  .skills_container > .description_container_light {
+    height: 95%;
+  }
+
   .description_container {
     width: 500px;
-    padding: 2rem;
+    padding: 1.2rem;
   }
 
   .description_container_light {
     width: 500px;
-    padding: 2rem;
+    padding: 1rem;
     -webkit-box-shadow: 5px 10px 13px -7px #7e2d40;
     box-shadow: 5px 10px 13px -7px #7e2d40;
   }
